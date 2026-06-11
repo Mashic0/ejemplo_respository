@@ -1,0 +1,20 @@
+2026-06-11 08:15:23 INFO  [Main] Aplicación iniciada correctamente.
+2026-06-11 08:15:24 INFO  [Database] Conexión establecida con la base de datos.
+2026-06-11 08:15:30 INFO  [Auth] Usuario 'marcelo' ha iniciado sesión.
+2026-06-11 08:16:05 WARN  [Auth] Intento de inicio de sesión fallido para usuario 'admin'.
+2026-06-11 08:16:12 INFO  [Ventas] Nueva venta registrada. ID=V1001 Total=125.50
+2026-06-11 08:16:45 INFO  [API] Solicitud GET /api/productos procesada correctamente.
+2026-06-11 08:17:02 ERROR [Database] Error al ejecutar consulta SQL. Código=1054
+2026-06-11 08:17:03 INFO  [Database] Reintentando conexión...
+2026-06-11 08:17:05 INFO  [Database] Conexión restablecida correctamente.
+2026-06-11 08:18:11 INFO  [Inventario] Producto actualizado. ID=P204 Stock=57
+2026-06-11 08:18:35 WARN  [Inventario] Stock bajo detectado. ID=P312 Stock=4
+2026-06-11 08:19:20 INFO  [Pagos] Pago procesado. Transacción=TX98452 Monto=75.00
+2026-06-11 08:20:04 ERROR [API] Error 500 al procesar POST /api/pagos
+2026-06-11 08:20:06 INFO  [API] Servicio recuperado tras reinicio automático.
+2026-06-11 08:21:17 INFO  [Reportes] Generación de reporte mensual iniciada.
+2026-06-11 08:21:55 INFO  [Reportes] Reporte mensual generado correctamente.
+2026-06-11 08:22:30 INFO  [Auth] Usuario 'ana' ha cerrado sesión.
+2026-06-11 08:23:14 WARN  [Security] Acceso no autorizado desde IP 192.168.1.45.
+2026-06-11 08:23:15 INFO  [Security] IP bloqueada temporalmente por 15 minutos.
+2026-06-11 08:24:00 INFO  [Main] Ejecución del sistema estable. Uso de memoria: 68%.
